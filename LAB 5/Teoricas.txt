@@ -1,0 +1,26 @@
+7 - As duas mensagens exibidas são do carro VW
+
+8 - Exception in thread "main", quando nós destruímos a lista, na verdade,
+destruímos apenas o ponteiro do vetor, que continha vetores que apontavam para os objetos carro.
+Como o java possui garbage collector, esses ponteiros da lista também serão destruídos.
+Mas os objetos não deixam de existir.
+
+9 - c1.liga();
+    c2.liga();
+    c3.liga();
+    Os carros ainda ligam, isso demonstra que apesar da lista ter sido destruída, o java
+    apenas armazena os ponteiros em listas
+
+11 - Ao ser ligado, a mensagem que aparece é de Veiculo e ao ser desligado Veiculo Terrestre.
+Isso se deve a característica de herança das classes. Como não foi implementado na classe Onibus
+nenhuma função liga e desliga, o java recorre as classes superiores.
+
+12 - Ao removermos o modelo da classe onibus e por não termos um metodo liga na classe onibus,
+o java utilizará os da classe superior Veiculo. Antes de removermos o modelo da classe onibus ao
+chamar o metodo liga da classe superior Veiculo, esse método utilizará o atributo da classe Veiculo, que não foi
+atribuida nada, pois atribuimos o modelo na classe Onibus, por isso o null estava sendo exibido.
+
+13 - Na classe carro, por o metodo liga ter sido implementado dentro da própria classe, não há o problema
+do modelo ser atribuido numa classe diferente, mas por segurança podemos remover modelo dessa classe e usaremos
+a da classe Veiculo em todos.
+

@@ -1,0 +1,11 @@
+1 - O que é encapsulamento e qual a sua importância para POO?
+    R: Encapsulamento é esconder os atributos (dados) e a implementação de métodos. De modo que não exponha suas regras de negócio e dados sensíveis ao mundo externo.
+
+2- Investigue: Qual a diferença entre o modificador de visibilidade public e a visibilidade padrão (default) sobre um atributo de classe? OBS: Lembre-se que atributo de classe (isto é, um atributo estático) e atributo de objeto são coisas distintas.
+    R: No pulbic todas as classes do programa tem acesso aos atributos, já no default somente as classes do próprio pacote tem acesso.
+
+3- O que são pacotes em Java?
+    R: Pacotes em Java são conjuntos de classes na mesma estrutura hierárquica de diretório (arquivos). Com pacotes podemos reutilizar identificadores e podemos criar pacotes dentro do nosso pacote.
+
+4- Qual o propósito da palavra-chave this? Exemplifique.
+    R: A palavra "this" foi pensada para evitar dupla interpretação no caso de variáveis com identificadores e tipos iguais.

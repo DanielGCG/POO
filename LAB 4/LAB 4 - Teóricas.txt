@@ -1,0 +1,22 @@
+1) Shallow copy (cópia rasa): é a copia do endereço de memória (cópia por referencia)
+Deep copy (cópia profunda): é a cópia do valor do objeto (cópia por valor)
+
+2) Herança é ter acesso a atributos de uma classe superior (desde que elas não estejam privadas).
+A vantagem é que não precisamos reescrever diversas vezes código. Podemos dizer que se todo acriano é brasileiro, nem todo brasileiro é acriano.
+A classe inferior é automaticamente a de cima, mas a de cima não é necessariamente igual a de baixo.
+
+3) Herança simples é quando a subclasse tem apenas uma superclasse, por exemplo, um mamífero é animal, mas não pode ser um vegetal.
+Herança múltipla é quando a subclasse tem mais de uma superclasse.
+
+6) O bonus do gerente foi de 15%, pois por estarmos no 4 trimestre, o override substituiu o bonus de 10% para um de 15% quando a condição trimestre for igual a 4.
+
+7) Esse super() serve para não precisarmos reescrever muito código, nesse caso inserimos os atributos que queríamos na classe de cima sem precisar reescrever tudo.
+
+8) Houve uma recursão, a função chamou a si mesma várias vezes até que atingiu o limite do java.
+
+9) Ao adicionar o super. a função bonus, paramos de usar a bonus da classe gerente para usarmos a da classe funcionário.
+
+10) Ao fazer essas alterações passamos a utilizar a função bonus da classe gerente, que nesse caso transformou o bonus em 20%.
+Quando tentamos apenas tirar o super. e deixar sem as entradas, não havia função com essas esntradas na classe gerente, por isso ele não compilou, o java não ia procurar na classe superior (funcionário) pela função bonus.
+
+12) Ao tornar esses atributos private, as outras classes de fora não tem acesso, as unicas que teriam acesso são classes internas a funcionario.
